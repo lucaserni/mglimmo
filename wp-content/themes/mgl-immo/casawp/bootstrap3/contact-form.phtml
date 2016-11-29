@@ -1,0 +1,114 @@
+<style>
+	.casawp-contactform-form .casawp-gender-radios{
+		margin-top: 15px;
+	}
+	.casawp-contactform-form .casawp-gender-radios .control-label{
+		display: none;
+	}
+	.casawp-contactform-form .casawp-gender-radios .form-group {
+		height: 20px;
+	}
+	.casawp-contactform-form .casawp-gender-radios label{
+		line-height: 20px;
+		margin-right: 15px;
+		float: left;
+		display: block;
+		margin-bottom: 0px;
+		cursor: pointer;
+	}
+	.casawp-contactform-form .casawp-gender-radios label input{
+		float: left;
+		width: auto;
+		margin-top: 0px;
+		padding: 0px;
+		height: auto;
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+		margin-right: 5px;
+	}
+	.js .casawp-contactform-form .casawp-gender-radios label input {
+		display: none;
+		
+	}
+	.js .casawp-contactform-form .casawp-gender-radios label input:checked + .checkreplacer {
+		background-color: #999;
+		border: 4px solid white;
+		box-shadow: 0px 0px 2px #333;
+
+	}
+	.js .casawp-contactform-form .casawp-gender-radios label .checkreplacer{
+		box-shadow: 0px 0px 0px #333;
+		transition: 0.2s all;
+		content: "";
+		display: block;
+		float: left;
+		width: auto;
+		margin-top: 0px;
+		padding: 0px;
+		height: auto;
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+		margin-right: 10px;
+		background-color: white;
+		border-radius: 50%;
+		border: 1px solid #ddd;
+		cursor: pointer;
+	}
+</style>
+
+<?php if ($sent): ?>
+	<p class="alert alert-success">Danke Ihre Nachricht wurde versendet.</p>
+<?php else: ?>
+
+	<?php $renderobject = ($this->offer ? $this->offer : $this->casawp); ?>
+
+	<?php if ($offer || $project): ?>
+			<?php $form->setAttribute('action', get_permalink(($offer ? $offer->post : $project->post))); ?>
+	<?php endif; ?>
+
+
+	<?= $this->form()->openTag($form->setAttribute('class', 'casawp-contactform-form')); ?>
+	<?= $this->formElement($form->get('form_id')) ?>
+	<?php wp_nonce_field( 'send-inquiry' ); ?>
+	<input id="theApsoluteRealEmailField" type="text" name="email" value="" placeholder="NlChT8 AuSf$lLeN">
+
+	<div class="casawp-gender-radios">
+		<?= $renderobject->renderContactFormElement($form->get('gender')) ?>
+	</div>
+	<div class="casawp-row">
+		<div class="casawp-col-md-5 casawp-input-left">
+			<?= $renderobject->renderContactFormElement($form->get('firstname')) ?>
+		</div>
+		<div class="casawp-col-md-7 casawp-input-right">
+			<?= $renderobject->renderContactFormElement($form->get('lastname')) ?>
+		</div>
+	</div>
+	<?= $renderobject->renderContactFormElement($form->get('street')) ?>
+	<div class="casawp-row">
+		<div class="casawp-col-md-5 casawp-input-left">
+			<?= $renderobject->renderContactFormElement($form->get('postal_code')) ?>
+		</div>
+		<div class="casawp-col-md-7 casawp-input-right">
+			<?= $renderobject->renderContactFormElement($form->get('locality')) ?>
+		</div>
+	</div>
+	<?= $renderobject->renderContactFormElement($form->get('country')) ?>
+	<?= $renderobject->renderContactFormElement($form->get('phone')) ?>
+	<?= $renderobject->renderContactFormElement($form->get('emailreal')) ?>
+	<?= $renderobject->renderContactFormElement($form->get('message')) ?>
+
+	<div class="casawp-row">
+    <div class="casawp-col-md-7 casawp-input-left">
+        <p class="casawp-form-control-static casawp-text-muted casawp-small"><?= __("Please fill out all the fields.", "casawp") ?></p>
+    </div>
+    <div class="casawp-col-md-5 casawp-input-right">
+        <input type="submit" class="casawp-contactform-send" value="<?= __("Send", "casawp") ?>">
+    </div>
+    <div class="clearBoth"></div>
+	</div>
+
+	<?= $this->form()->closeTag(); ?>
+
+<?php endif ?>

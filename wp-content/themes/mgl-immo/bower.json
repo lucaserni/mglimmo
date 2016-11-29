@@ -1,0 +1,21 @@
+{
+  "name": "insert-your-theme-name-here-dont-forget",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "modernizr": "~2.8.3",
+    "fontawesome": "~4.2.0",
+    "jqueryui": "~1.11.2",
+    "select2": "*",
+    "select2-skins": "~1.0.1",
+    "simpleStorage": "0.1.3",
+    "fancybox": "2.*",
+    "html5shiv": "*",
+    "respond": "*",
+    "picturefill": "*",
+    "flickity": "*",
+    "parallax.js": "*",
+    "matchHeight": "*"
+  },
+  "devDependencies": {}
+}

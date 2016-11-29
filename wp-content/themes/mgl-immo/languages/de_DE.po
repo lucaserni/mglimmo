@@ -1,0 +1,1512 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-09-29 11:23+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jens Stalder <js@casasoft.ch>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _e;__;_n\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././404.php:5
+msgid "Not Found"
+msgstr "Nicht gefunden"
+
+#: .././404.php:9
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: .././404.php:18
+msgid "404 - Page not found"
+msgstr "404 - Seite nicht gefunden"
+
+#: .././404.php:23
+#, php-format
+msgid ""
+"It looks like nothing was found at this location. Maybe you will find what "
+"you're looking for if you return to %s "
+msgstr ""
+"Die Seite konnte nicht gefunden werden. Vielleicht finden Sie die Seite, die "
+"Sie suchen, wenn sie zur %s zurückkehren"
+
+#: .././404.php:23
+msgid "Home"
+msgstr "Startseite"
+
+#: .././casasync-archive.php:19
+msgid "No image"
+msgstr "Kein Bild"
+
+#: .././casasync-archive.php:32
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: .././casasync-archive.php:33
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Es tut uns leid, aber auf ihre Suchanfrage gab es keine Treffer. Bitte "
+"versuchen Sie es mit anderen Suchbegriffen."
+
+#: .././footer.php:5
+msgid "All rights reserved."
+msgstr "Alle Rechte vorbehalten."
+
+#: .././functions.php:8
+msgid "Footer Menu"
+msgstr "Fuss-Zeile Menu"
+
+#: .././functions.php:9
+msgid "Main Menu"
+msgstr "Hauptmenu"
+
+#: .././index.php:28 .././page.php:10 .././search.php:20 .././single.php:13
+msgid "no entries found"
+msgstr "Keine Einträge gefunden"
+
+#: .././search.php:5
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Such-Resultate für: %s"
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try a search?"
+#~ msgstr ""
+#~ "Diese Seite konnte nicht gefunden werden. Vielleicht finden Sie was sie "
+#~ "suchen indem sie das Such-Formular verwenden?"
+
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Tägliches Archiv: %s"
+
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Monatliches Archiv: %s"
+
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Jährliches Archiv: %s"
+
+#~ msgid "Pages:"
+#~ msgstr "Seiten:"
+
+#~ msgid "One thought on &ldquo;%2$s&rdquo;"
+#~ msgstr "Ein Kommentar bezüglich &ldquo;%2$s&rdquo;"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Kommentar Navigation"
+
+#~ msgid "&larr; Older Comments"
+#~ msgstr "&larr; Ältere Kommentare"
+
+#~ msgid "Newer Comments &rarr;"
+#~ msgstr "Neuere Kommentare &rarr;"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Kommentare sind geschlossen"
+
+#~ msgid "Leave a comment"
+#~ msgstr "Hinterlassen Sie eine Nachricht"
+
+#~ msgid "1 Comment"
+#~ msgstr "1 Kommentar"
+
+#~ msgid "% Comments"
+#~ msgstr "% Kommentare"
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Weiter Lesen <i class=\"fa fa-arrow-right\"></i>"
+
+#~ msgid "Team"
+#~ msgstr "Team"
+
+#~ msgid "Member"
+#~ msgstr "Mitglied"
+
+#~ msgid "Add Member"
+#~ msgstr "Mitglied hinzufügen"
+
+#~ msgid "Add New Member"
+#~ msgstr "Neues Mitglied erstellen"
+
+#~ msgid "Edit Member"
+#~ msgstr "Mitglied bearbeiten"
+
+#~ msgid "New Member"
+#~ msgstr "Neues Mitglied"
+
+#~ msgid "View Member"
+#~ msgstr "Mitglied anzeigen"
+
+#~ msgid "Search Team"
+#~ msgstr "Team Durchsuchen"
+
+#~ msgid "No Team Found"
+#~ msgstr "Kein Mitglied gefunden"
+
+#~ msgid "No Team Found in Trash"
+#~ msgstr "Keine Mitglieder im Papierkorb gefunden"
+
+#~ msgid "Parent Member"
+#~ msgstr "Übergeordnetes Mitglied"
+
+#~ msgid "Departments"
+#~ msgstr "Abteilungen"
+
+#~ msgid "Department"
+#~ msgstr "Abteilung"
+
+#~ msgid "Ideas"
+#~ msgstr "Ideen"
+
+#~ msgid "Idea"
+#~ msgstr "Idee"
+
+#~ msgid "Add Idea"
+#~ msgstr "Idee Eintragen"
+
+#~ msgid "Add New Idea"
+#~ msgstr "Neue Idee Eintragen"
+
+#~ msgid "Edit Idea"
+#~ msgstr "Idee bearbeiten"
+
+#~ msgid "New Idea"
+#~ msgstr "Neue Idee"
+
+#~ msgid "View Idea"
+#~ msgstr "Idee anzeigen"
+
+#~ msgid "Search Ideas"
+#~ msgstr "Ideen durchsuchen"
+
+#~ msgid "No Ideas Found"
+#~ msgstr "Keine Ideen gefunden"
+
+#~ msgid "No Idea Found in Trash"
+#~ msgstr "Keine Ideen im Papierkorb gefunden"
+
+#~ msgid "Parent Idea"
+#~ msgstr "Übergeordnete Idee"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "No Departments"
+#~ msgstr "Keine Abteilungen"
+
+#~ msgid "Primary Menu"
+#~ msgstr "Primäres Menu"
+
+#~ msgid "Skip to content"
+#~ msgstr "Weiter zum Inhalt"
+
+#~ msgid "This entry was posted on"
+#~ msgstr "Dieser Beitrag wurde veröffentlicht am"
+
+#~ msgid "and is filed under"
+#~ msgstr "und kategorisiert als"
+
+#~ msgid "Principality of Liechtenstein"
+#~ msgstr "Fürstentum Liechtenstein"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "Buy"
+#~ msgstr "Kaufen"
+
+#~ msgid "Rent"
+#~ msgstr "Mieten"
+
+#~ msgid "Advanced Search"
+#~ msgstr "Erweiterte Suche"
+
+#~ msgid "Choose offer"
+#~ msgstr "Angebot wählen"
+
+#~ msgid "Choose category"
+#~ msgstr "Kategorie wählen"
+
+#~ msgid "Choose locality"
+#~ msgstr "Ort wählen"
+
+#~ msgid "Properties"
+#~ msgstr "Immobilien"
+
+#~ msgid "Property"
+#~ msgstr "Immobilie"
+
+#~ msgid "Edit Property"
+#~ msgstr "Immobilie bearbeiten"
+
+#~ msgid "New Property"
+#~ msgstr "Neue Immobilie"
+
+#~ msgid "All Properties"
+#~ msgstr "Alle Immobilien"
+
+#~ msgid "View Property"
+#~ msgstr "Immobilie ansehen"
+
+#~ msgid "Search Properties"
+#~ msgstr "Immobilien durchsuchen"
+
+#~ msgid "Property categories"
+#~ msgstr "Immobilien Kategorien"
+
+#~ msgid "Category"
+#~ msgstr "Kategorie"
+
+#~ msgid "Search Categories"
+#~ msgstr "Kategorien durchsuchen"
+
+#~ msgid "All Categories"
+#~ msgstr "Alle Kategorien"
+
+#~ msgid "Parent Category:"
+#~ msgstr "Übergeordnete Kategorien:"
+
+#~ msgid "Edit Category"
+#~ msgstr "Kategorie bearbeiten"
+
+#~ msgid "Update Category"
+#~ msgstr "Aktualisiere Kategorie"
+
+#~ msgid "Add New Category"
+#~ msgstr "Neue Kategorie erstellen"
+
+#~ msgid "New Category Name"
+#~ msgstr "Neuer Kategorienamen"
+
+#~ msgid "Property locations"
+#~ msgstr "Immobilien Ortschaften"
+
+#~ msgid "Location"
+#~ msgstr "Ortschaft"
+
+#~ msgid "Search Locations"
+#~ msgstr "Orteschaften durchsuchen"
+
+#~ msgid "All Locations"
+#~ msgstr "Alle Ortschaften"
+
+#~ msgid "Parent Location"
+#~ msgstr "Übergeordnete Ortschaft"
+
+#~ msgid "Parent Location:"
+#~ msgstr "Übergeordnete Ortschaft:"
+
+#~ msgid "Edit Location"
+#~ msgstr "Ortschaft bearbeiten"
+
+#~ msgid "Update Location"
+#~ msgstr "Ortschaft aktualisieren"
+
+#~ msgid "Add New Location"
+#~ msgstr "Neue Ortschaft erstellen"
+
+#~ msgid "New Location Name"
+#~ msgstr "Neue Ortschafts-Namen"
+
+#~ msgid "Property salestypes"
+#~ msgstr "Immobilien Vermarktungsarten"
+
+#~ msgid "Salestype"
+#~ msgstr "Vermarktungsart"
+
+#~ msgid "Search Salestypes"
+#~ msgstr "Vermarktungsarten durchsuchen"
+
+#~ msgid "All Salestypes"
+#~ msgstr "Alle Vermarktungsarten"
+
+#~ msgid "Edit Salestype"
+#~ msgstr "Vermarktungsart bearbeiten"
+
+#~ msgid "Update Salestype"
+#~ msgstr "Vermarktungsart aktualisieren"
+
+#~ msgid "Add New Salestype"
+#~ msgstr "Neue Vermarktungsart erstellen"
+
+#~ msgid "New Salestype Name"
+#~ msgstr "Neuer Vermarktungsart-Namen"
+
+#~ msgid "Separate salestypes with commas"
+#~ msgstr "Trenne Vermarktungsarten durch Kommas"
+
+#~ msgid "Add or remove salestypes"
+#~ msgstr "Vermarktungsarten hinzufügen oder entfernen"
+
+#~ msgid "Choose from the most used salestypes"
+#~ msgstr "Wähle von den meistbenutzten Vermarktungsarten"
+
+#~ msgid "No Salestypes found."
+#~ msgstr "Keine Vermarktungsarten gefunden"
+
+#~ msgid "Property Attachment Types"
+#~ msgstr "Immobilien Anhangsart"
+
+#~ msgid "Attachment Type"
+#~ msgstr "Immobilien Anhangsart"
+
+#~ msgid "Search Attachment Types"
+#~ msgstr "Suche Anhangsarten"
+
+#~ msgid "All Attachment Types"
+#~ msgstr "Alle Anhangsarten"
+
+#~ msgid "Parent Attachment Type"
+#~ msgstr "Übergeordnete Anhangsart"
+
+#~ msgid "Parent Attachment Type:"
+#~ msgstr "Übergeordnete Anhangsart:"
+
+#~ msgid "Edit Attachment Type"
+#~ msgstr "Anhangsart bearbeiten"
+
+#~ msgid "Update Attachment Type"
+#~ msgstr "Anhangsart aktualisieren"
+
+#~ msgid "Add New Attachment Type"
+#~ msgstr "Neue Anhangsarten erstellen"
+
+#~ msgid "New Attachment Type Name"
+#~ msgstr "Neuer Anhangsart-Namen"
+
+#~ msgid "First name"
+#~ msgstr "Vorname"
+
+#~ msgid "Last name"
+#~ msgstr "Nachname"
+
+#~ msgid "Email"
+#~ msgstr "E-Mail"
+
+#~ msgid "Salutation"
+#~ msgstr "Anrede"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Company"
+#~ msgstr "Firma"
+
+#~ msgid "Street"
+#~ msgstr "Strasse"
+
+#~ msgid "ZIP"
+#~ msgstr "PLZ"
+
+#~ msgid "Locality"
+#~ msgstr "Ort"
+
+#~ msgid "Country"
+#~ msgstr "Land"
+
+#~ msgid "Kanton"
+#~ msgstr "Kanton"
+
+#~ msgid "Subject"
+#~ msgstr "Betreff"
+
+#~ msgid "Message"
+#~ msgstr "Nachricht"
+
+#~ msgid "Recipient"
+#~ msgstr "Rezipient"
+
+#~ msgid "Required"
+#~ msgstr "Erforderlich"
+
+#~ msgid "Show property ..."
+#~ msgstr "Objekt anzeigen ..."
+
+#~ msgid "Inquiry for a property online"
+#~ msgstr "Anfrage für ein Objekt online"
+
+#~ msgid "New inquiry"
+#~ msgstr "Neue Anfrage"
+
+#~ msgid "A new inquiry from %s has been sent"
+#~ msgstr "Auf %s wurde eine neue Anfrage versendet"
+
+#~ msgid "Thank you!"
+#~ msgstr "Vielen Dank!"
+
+#~ msgid "Error!"
+#~ msgstr "Fehler!"
+
+#~ msgid "Please consider the following errors and try sending it again"
+#~ msgstr ""
+#~ "Folgende Fehler sind aufgetreten. Bitte überprüfen Sie die Eingabefelder."
+
+#~ msgid "Please fill out all the fields"
+#~ msgstr "Bitte alle Felder ausfüllen."
+
+#~ msgid "Send"
+#~ msgstr "Senden"
+
+#~ msgid "Andorra"
+#~ msgstr "Andorra"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Vereinigte Arabische Emirate"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afghanistan"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antigua und Barbuda"
+
+#~ msgid "Anguilla"
+#~ msgstr "Anguilla"
+
+#~ msgid "Albania"
+#~ msgstr "Albanien"
+
+#~ msgid "Armenia"
+#~ msgstr "Armenien"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Niederländische Antillen"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Antarctica"
+#~ msgstr "Antarktis"
+
+#~ msgid "Argentina"
+#~ msgstr "Argentinien"
+
+#~ msgid "Austria"
+#~ msgstr "Österreich"
+
+#~ msgid "Australia"
+#~ msgstr "Australien"
+
+#~ msgid "Aruba"
+#~ msgstr "Aruba"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Aserbaidschan"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bosnien und Herzegowina"
+
+#~ msgid "Barbados"
+#~ msgstr "Barbados"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladesch"
+
+#~ msgid "Belgium"
+#~ msgstr "Belgien"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Burkina Faso"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgarien"
+
+#~ msgid "Bahrain"
+#~ msgstr "Bahrain"
+
+#~ msgid "Burundi"
+#~ msgstr "Burundi"
+
+#~ msgid "Benin"
+#~ msgstr "Benin"
+
+#~ msgid "Bermuda"
+#~ msgstr "Bermuda"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Brunei"
+
+#~ msgid "Brazil"
+#~ msgstr "Brasilien"
+
+#~ msgid "Bahamas"
+#~ msgstr "Bahamas"
+
+#~ msgid "Bhutan"
+#~ msgstr "Bhutan"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Bouvetinsel"
+
+#~ msgid "Botswana"
+#~ msgstr "Botswana"
+
+#~ msgid "Belarus"
+#~ msgstr "Weißrussland"
+
+#~ msgid "Belize"
+#~ msgstr "Belize"
+
+#~ msgid "Canada"
+#~ msgstr "Kanada"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Kokosinseln"
+
+#~ msgid "Congo, The Democratic Republic of the"
+#~ msgstr "Kongo, Demokratische Republik"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Zentralafrikanische Republik"
+
+#~ msgid "Congo"
+#~ msgstr "Kongo, Republik"
+
+#~ msgid "Switzerland"
+#~ msgstr "Schweiz"
+
+#~ msgid "Cote D'Ivoire"
+#~ msgstr "Cote d'Ivoire"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Cookinseln"
+
+#~ msgid "Chile"
+#~ msgstr "Chile"
+
+#~ msgid "Cameroon"
+#~ msgstr "Kamerun"
+
+#~ msgid "China"
+#~ msgstr "China, Volksrepublik"
+
+#~ msgid "Colombia"
+#~ msgstr "Kolumbien"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Costa Rica"
+
+#~ msgid "Cuba"
+#~ msgstr "Kuba"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Kap Verde, Republik"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Weihnachtsinsel"
+
+#~ msgid "Cyprus"
+#~ msgstr "Zypern, Republik"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Tschechische Republik"
+
+#~ msgid "Germany"
+#~ msgstr "Deutschland"
+
+#~ msgid "Djibouti"
+#~ msgstr "Dschibuti"
+
+#~ msgid "Denmark"
+#~ msgstr "Dänemark"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominica"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Dominikanische Republik"
+
+#~ msgid "Algeria"
+#~ msgstr "Algerien"
+
+#~ msgid "Ecuador"
+#~ msgstr "Ecuador"
+
+#~ msgid "Estonia"
+#~ msgstr "Estland"
+
+#~ msgid "Egypt"
+#~ msgstr "Ägypten"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Westsahara"
+
+#~ msgid "Eritrea"
+#~ msgstr "Eritrea"
+
+#~ msgid "Spain"
+#~ msgstr "Spanien"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Äthiopien"
+
+#~ msgid "Finland"
+#~ msgstr "Finnland"
+
+#~ msgid "Fiji"
+#~ msgstr "Fidschi"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Falklandinseln"
+
+#~ msgid "Micronesia, Federated States of"
+#~ msgstr "Mikronesien, Föderierte Staaten von"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Färöer"
+
+#~ msgid "France"
+#~ msgstr "Frankreich"
+
+#~ msgid "Gabon"
+#~ msgstr "Gabun"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Vereinigtes Königreich von Großbritannien und Nordirland"
+
+#~ msgid "Grenada"
+#~ msgstr "Grenada"
+
+#~ msgid "Georgia"
+#~ msgstr "Georgien"
+
+#~ msgid "French Guiana"
+#~ msgstr "Französisch-Guayana"
+
+#~ msgid "Ghana"
+#~ msgstr "Ghana, Republik"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Gibraltar"
+
+#~ msgid "Greenland"
+#~ msgstr "Grönland"
+
+#~ msgid "Gambia"
+#~ msgstr "Gambia"
+
+#~ msgid "Guinea"
+#~ msgstr "Guinea, Republik"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Guadeloupe"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Äquatorialguinea, Republik"
+
+#~ msgid "Greece"
+#~ msgstr "Griechenland"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "Südgeorgien und die Südlichen Sandwichinseln"
+
+#~ msgid "Guatemala"
+#~ msgstr "Guatemala"
+
+#~ msgid "Guam"
+#~ msgstr "Guam"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Guinea-Bissau, Republik"
+
+#~ msgid "Guyana"
+#~ msgstr "Guyana"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hongkong"
+
+#~ msgid "Heard Island and McDonald Islands"
+#~ msgstr "Heard und McDonaldinseln"
+
+#~ msgid "Honduras"
+#~ msgstr "Honduras"
+
+#~ msgid "Croatia"
+#~ msgstr "Kroatien"
+
+#~ msgid "Haiti"
+#~ msgstr "Haiti"
+
+#~ msgid "Hungary"
+#~ msgstr "Ungarn"
+
+#~ msgid "Indonesia"
+#~ msgstr "Indonesien"
+
+#~ msgid "Ireland"
+#~ msgstr "Irland, Republik"
+
+#~ msgid "Israel"
+#~ msgstr "Israel"
+
+#~ msgid "India"
+#~ msgstr "Indien"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "Britisches Territorium im Indischen Ozean"
+
+#~ msgid "Iraq"
+#~ msgstr "Irak"
+
+#~ msgid "Iran, Islamic Republic of"
+#~ msgstr "Iran"
+
+#~ msgid "Iceland"
+#~ msgstr "Island"
+
+#~ msgid "Italy"
+#~ msgstr "Italien"
+
+#~ msgid "Jamaica"
+#~ msgstr "Jamaika"
+
+#~ msgid "Jordan"
+#~ msgstr "Jordanien"
+
+#~ msgid "Japan"
+#~ msgstr "Japan"
+
+#~ msgid "Kenya"
+#~ msgstr "Kenia"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kirgisistan"
+
+#~ msgid "Cambodia"
+#~ msgstr "Kambodscha"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "St. Kitts und Nevis"
+
+#~ msgid "Korea, Democratic People's Republic of"
+#~ msgstr "Korea, Demokratische Volkrepublik"
+
+#~ msgid "Korea, Republic of"
+#~ msgstr "Korea, Republik"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuwait"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Kaimaninseln"
+
+#~ msgid "Kazakstan"
+#~ msgstr "Kasachstan"
+
+#~ msgid "Lao People's Democratic Republic"
+#~ msgstr "Laos"
+
+#~ msgid "Lebanon"
+#~ msgstr "Libanon"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "St. Lucia"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+#~ msgid "Liberia"
+#~ msgstr "Liberia, Republik"
+
+#~ msgid "Lesotho"
+#~ msgstr "Lesotho"
+
+#~ msgid "Lithuania"
+#~ msgstr "Litauen"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Luxemburg"
+
+#~ msgid "Latvia"
+#~ msgstr "Lettland"
+
+#~ msgid "Morocco"
+#~ msgstr "Marokko"
+
+#~ msgid "Monaco"
+#~ msgstr "Monaco"
+
+#~ msgid "Moldova, Republic of"
+#~ msgstr "Moldawien"
+
+#~ msgid "Madagascar"
+#~ msgstr "Madagaskar, Republik"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Marshallinseln"
+
+#~ msgid "Mali"
+#~ msgstr "Mali, Republik"
+
+#~ msgid "Myanmar"
+#~ msgstr "Myanmar"
+
+#~ msgid "Mongolia"
+#~ msgstr "Mongolei"
+
+#~ msgid "Macau"
+#~ msgstr "Macao"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Nördliche Marianen"
+
+#~ msgid "Martinique"
+#~ msgstr "Martinique"
+
+#~ msgid "Mauritania"
+#~ msgstr "Mauretanien"
+
+#~ msgid "Montserrat"
+#~ msgstr "Montserrat"
+
+#~ msgid "Malta"
+#~ msgstr "Malta"
+
+#~ msgid "Mauritius"
+#~ msgstr "Mauritius, Republik"
+
+#~ msgid "Maldives"
+#~ msgstr "Malediven"
+
+#~ msgid "Malawi"
+#~ msgstr "Malawi, Republik"
+
+#~ msgid "Mexico"
+#~ msgstr "MexikoMalawi, Republik"
+
+#~ msgid "Malaysia"
+#~ msgstr "Mexiko"
+
+#~ msgid "Mozambique"
+#~ msgstr "Mosambik"
+
+#~ msgid "Namibia"
+#~ msgstr "Namibia, Republik"
+
+#~ msgid "New Caledonia"
+#~ msgstr "Neukaledonien"
+
+#~ msgid "Niger"
+#~ msgstr "Niger"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Norfolkinsel"
+
+#~ msgid "Nigeria"
+#~ msgstr "Nigeria"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Nicaragua"
+
+#~ msgid "Netherlands"
+#~ msgstr "Niederlande"
+
+#~ msgid "Norway"
+#~ msgstr "Norwegen"
+
+#~ msgid "Nepal"
+#~ msgstr "Nepal"
+
+#~ msgid "Nauru"
+#~ msgstr "Nauru"
+
+#~ msgid "Niue"
+#~ msgstr "Niue"
+
+#~ msgid "Oman"
+#~ msgstr "Oman"
+
+#~ msgid "Panama"
+#~ msgstr "Panama"
+
+#~ msgid "Peru"
+#~ msgstr "Peru"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Französisch-Polynesien"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Papua-Neuguinea"
+
+#~ msgid "Philippines"
+#~ msgstr "Philippinen"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistan"
+
+#~ msgid "Poland"
+#~ msgstr "Polen"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "St. Pierre und Miquelon"
+
+#~ msgid "Pitcairn Islands"
+#~ msgstr "Pitcairninseln"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Puerto Rico"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugal"
+
+#~ msgid "Palau"
+#~ msgstr "Palau"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paraguay"
+
+#~ msgid "Qatar"
+#~ msgstr "Katar"
+
+#~ msgid "Reunion"
+#~ msgstr "Réunion"
+
+#~ msgid "Romania"
+#~ msgstr "Rumänien"
+
+#~ msgid "Russian Federation"
+#~ msgstr "Russische Föderation"
+
+#~ msgid "Rwanda"
+#~ msgstr "Ruanda, Republik"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Saudi-Arabien, Königreich"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Salomonen"
+
+#~ msgid "Seychelles"
+#~ msgstr "Seychellen, Republik der"
+
+#~ msgid "Sudan"
+#~ msgstr "Sudan"
+
+#~ msgid "Sweden"
+#~ msgstr "Schweden"
+
+#~ msgid "Singapore"
+#~ msgstr "Singapur"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Die Kronkolonie St. Helen"
+
+#~ msgid "Slovenia"
+#~ msgstr "Slowenien"
+
+#~ msgid "Svalbard and Jan Mayen"
+#~ msgstr "Svalbard und Jan Mayen"
+
+#~ msgid "Slovakia"
+#~ msgstr "Slowakei"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Sierra Leone, Republik"
+
+#~ msgid "San Marino"
+#~ msgstr "San Marino"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegal"
+
+#~ msgid "Somalia"
+#~ msgstr "Somalia, Demokratische Republik"
+
+#~ msgid "Suriname"
+#~ msgstr "Suriname"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "São Tomé und Príncipe"
+
+#~ msgid "El Salvador"
+#~ msgstr "El Salvador"
+
+#~ msgid "Syrian Arab Republic"
+#~ msgstr "Syrien"
+
+#~ msgid "Swaziland"
+#~ msgstr "Swasiland"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Turks- und Caicosinseln"
+
+#~ msgid "Chad"
+#~ msgstr "Tschad, Republik"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Französische Süd- und Antarktisgebiete"
+
+#~ msgid "Togo"
+#~ msgstr "Togo, Republik"
+
+#~ msgid "Thailand"
+#~ msgstr "Thailand"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Tadschikistan"
+
+#~ msgid "Tokelau"
+#~ msgstr "Tokelau"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Turkmenistan"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tunesien"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Timor-Leste"
+#~ msgstr "Timor-Leste, Demokratische Republik"
+
+#~ msgid "Turkey"
+#~ msgstr "Türkei"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Trinidad und Tobago"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Tuvalu"
+
+#~ msgid "Taiwan"
+#~ msgstr "Taiwan"
+
+#~ msgid "Tanzania, United Republic of"
+#~ msgstr "Tansania, Vereinigte Republik"
+
+#~ msgid "Ukraine"
+#~ msgstr "Ukraine"
+
+#~ msgid "Uganda"
+#~ msgstr "Uganda, Republik"
+
+#~ msgid "United States"
+#~ msgstr "Vereinigte Staaten von Amerika"
+
+#~ msgid "Uruguay"
+#~ msgstr "Uruguay"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Usbekistan"
+
+#~ msgid "Holy See (Vatican City State)"
+#~ msgstr "Vatikanstadt"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "St. Vincent und die Grenadinen (GB)"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezuela"
+
+#~ msgid "Virgin Islands, British"
+#~ msgstr "Britische Jungferninseln"
+
+#~ msgid "Virgin Islands, U.S."
+#~ msgstr "Amerikanische Jungferninseln"
+
+#~ msgid "Vietnam"
+#~ msgstr "Vietnam"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatu"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Wallis und Futuna"
+
+#~ msgid "Samoa"
+#~ msgstr "Amerikanisch-Samoa"
+
+#~ msgid "Yemen"
+#~ msgstr "Jemen"
+
+#~ msgid "Mayotte"
+#~ msgstr "Mayotte"
+
+#~ msgid "South Africa"
+#~ msgstr "Südafrika, Republik"
+
+#~ msgid "Zambia"
+#~ msgstr "Sambia, Republik"
+
+#~ msgid "Montenegro"
+#~ msgstr "Serbien und Montenegro"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Simbabwe, Republik"
+
+#~ msgid "Guernsey"
+#~ msgstr "Guernsey, Vogtei"
+
+#~ msgid "Isle of Man"
+#~ msgstr "Insel Man"
+
+#~ msgid "Jersey"
+#~ msgstr "Jersey"
+
+#~ msgid "Living space"
+#~ msgstr "Wohnfläche"
+
+#~ msgid "Property space"
+#~ msgstr "Grundstücksfläche"
+
+#~ msgid "Year of renovation"
+#~ msgstr "Letzte Renovation"
+
+#~ msgid "Year of construction"
+#~ msgstr "Baujahr"
+
+#~ msgid "Number of rooms"
+#~ msgstr "Anzahl Zimmer"
+
+#~ msgid "Number of floors"
+#~ msgstr "Anzahl Etagen"
+
+#~ msgid "Floor"
+#~ msgstr "Etage"
+
+#~ msgid "Volume"
+#~ msgstr "Kubatur"
+
+#~ msgid "Number of apartments"
+#~ msgstr "Anzahl Wohnungen"
+
+#~ msgid "Surface usable"
+#~ msgstr "Nutzfläche"
+
+#~ msgid "Ceiling height"
+#~ msgstr "Raumhöhe"
+
+#~ msgid "Hall height"
+#~ msgstr "Hallenhöhe"
+
+#~ msgid "Maximal floor loading"
+#~ msgstr "Max. Bodenbelastung"
+
+#~ msgid "Carrying capacity crane"
+#~ msgstr "Max. Gewicht Kran"
+
+#~ msgid "Carrying capacity elevator"
+#~ msgstr "Max. Gewicht Warenlift"
+
+#~ msgid "Agriculture"
+#~ msgstr "Landwirtschaft"
+
+#~ msgid "Gastronomy"
+#~ msgstr "Gastronomie"
+
+#~ msgid "House"
+#~ msgstr "Haus"
+
+#~ msgid "Industrial"
+#~ msgstr "Gewerbe/Industrie"
+
+#~ msgid "Parking space"
+#~ msgstr "Parkplatz"
+
+#~ msgid "Plot"
+#~ msgstr "Grundstück"
+
+#~ msgid "Secondary rooms"
+#~ msgstr "Wohnnebenräume"
+
+#~ msgid "Garden"
+#~ msgstr "Garten"
+
+#~ msgid "Commercial"
+#~ msgstr "Büro"
+
+#~ msgid "Public transportation"
+#~ msgstr "Öffentlicher Verkehr"
+
+#~ msgid "Shopping"
+#~ msgstr "Shoppingcenter"
+
+#~ msgid "Kindergarten"
+#~ msgstr "Kindergarten"
+
+#~ msgid "Motorway"
+#~ msgstr "Autobahnanschluss"
+
+#~ msgid "Secondary school"
+#~ msgstr "Oberstufe"
+
+#~ msgid "On Request"
+#~ msgstr "Auf Anfrage"
+
+#~ msgid "By Agreement"
+#~ msgstr "Nach Vereinbarung"
+
+#~ msgid "Immediate"
+#~ msgstr "Sofort"
+
+#~ msgid "Child friendly"
+#~ msgstr "Kinderfreundlich"
+
+#~ msgid "%d garages"
+#~ msgstr "%d Garagen"
+
+#~ msgid "Garage"
+#~ msgstr "Autogarage"
+
+#~ msgid "%dx balconies"
+#~ msgstr "%dx Balkone"
+
+#~ msgid "Balcony"
+#~ msgstr "Balkon"
+
+#~ msgid "Vista"
+#~ msgstr "Aussicht"
+
+#~ msgid "Cable TV"
+#~ msgstr "Kabelfernsehen"
+
+#~ msgid "%d Parking spaces"
+#~ msgstr "'%d Parkplätze"
+
+#~ msgid "%d Pets allowed"
+#~ msgstr "%d Haustiere erlaubt"
+
+#~ msgid "Pets allowed"
+#~ msgstr "Haustiere erlaubt"
+
+#~ msgid "%d Restrooms"
+#~ msgstr "%d Toiletten"
+
+#~ msgid "Restrooms"
+#~ msgstr "Toiletten"
+
+#~ msgid "%d elevators"
+#~ msgstr "%d Lifte / Aufzüge"
+
+#~ msgid "Elevator"
+#~ msgstr "Lift / Aufzug"
+
+#~ msgid "Fireplace"
+#~ msgstr "Cheminée"
+
+#~ msgid "wheelchair accessible"
+#~ msgstr "Rollstuhlgängig"
+
+#~ msgid "Ramp"
+#~ msgstr "Anfahrrampe"
+
+#~ msgid "lifting platform"
+#~ msgstr "Hebebühne"
+
+#~ msgid "Railway terminal"
+#~ msgstr "Bahnanschluss"
+
+#~ msgid "Water Supply"
+#~ msgstr "Wasseranschluss"
+
+#~ msgid "Sewage supply"
+#~ msgstr "Abwasseranschluss"
+
+#~ msgid "Power Supply"
+#~ msgstr "Stromanschluss"
+
+#~ msgid "Gas supply"
+#~ msgstr "Gasanschluss"
+
+#~ msgid "Corner house"
+#~ msgstr "Eckhaus"
+
+#~ msgid "Middle house"
+#~ msgstr "Mittelhaus"
+
+#~ msgid "Gardenhouse"
+#~ msgstr "Gartenhaus"
+
+#~ msgid "Raised ground floor"
+#~ msgstr "Hochparterre"
+
+#~ msgid "New building"
+#~ msgstr "Neubau"
+
+#~ msgid "Old building"
+#~ msgstr "Altbau"
+
+#~ msgid "Under roof"
+#~ msgstr "Gedeckt"
+
+#~ msgid "Swimmingpool"
+#~ msgstr "Swimmingpool"
+
+#~ msgid "Minergie general"
+#~ msgstr "Minergiebauweise"
+
+#~ msgid "Minergie certified"
+#~ msgstr "Minergie zertifiziert"
+
+#~ msgid "Under building laws"
+#~ msgstr "Im Baurecht"
+
+#~ msgid "Building land connected"
+#~ msgstr "Bauland erschlossen"
+
+#~ msgid "Flat sharing community"
+#~ msgstr "In Wohngemeinschaft"
+
+#~ msgid "month"
+#~ msgstr "Monat"
+
+#~ msgid "week"
+#~ msgstr "Woche"
+
+#~ msgid "day"
+#~ msgstr "Tag"
+
+#~ msgid "year"
+#~ msgstr "Jahr"
+
+#~ msgid "hour"
+#~ msgstr "Stunde"
+
+#~ msgid "Ground"
+#~ msgstr "EG"
+
+#~ msgid "Number of rooms:"
+#~ msgstr "Anzahl Zimmer:"
+
+#~ msgid "Surface usable:"
+#~ msgstr "Nutzfläche:"
+
+#~ msgid "Living space:"
+#~ msgstr "Wohnfläche:"
+
+#~ msgid "Property space:"
+#~ msgstr "Grundstücksfläche:"
+
+#~ msgid "Floor:"
+#~ msgstr "Etage:"
+
+#~ msgid "Number of floors:"
+#~ msgstr "Anzahl Etagen:"
+
+#~ msgid "Year of construction:"
+#~ msgstr "Baujahr:"
+
+#~ msgid "Year of renovation:"
+#~ msgstr "Letzte Renovation:"
+
+#~ msgid "Available:"
+#~ msgstr "Verfügbar:"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "rent"
+#~ msgstr "Miete"
+
+#~ msgid "Price"
+#~ msgstr "Preis"
+
+#~ msgid "Sales price:"
+#~ msgstr "Kaufpreis:"
+
+#~ msgid "Gross price:"
+#~ msgstr "Bruttomiete:"
+
+#~ msgid "Net price:"
+#~ msgstr "Nettomiete:"
+
+#~ msgid "Additional costs"
+#~ msgstr "Nebenkosten"
+
+#~ msgid "Offer"
+#~ msgstr "Angebot"
+
+#~ msgid "Sales price"
+#~ msgstr "Kaufpreis"
+
+#~ msgid "Gross price"
+#~ msgstr "Bruttomiete"
+
+#~ msgid "Net price"
+#~ msgstr "Nettomiete"
+
+#~ msgid "Rent price"
+#~ msgstr "Mietpreis"
+
+#~ msgid "Reference"
+#~ msgstr "Referenz"
+
+#~ msgid "Features"
+#~ msgstr "Eigenschaften"
+
+#~ msgid "Distances"
+#~ msgstr "Distanzen"
+
+#~ msgid "Available"
+#~ msgstr "Verfügbar"
+
+#~ msgid "Previous"
+#~ msgstr "Zurück"
+
+#~ msgid "To list"
+#~ msgstr "Zur Liste"
+
+#~ msgid "Next"
+#~ msgstr "Weiter"
+
+#~ msgid "Base data"
+#~ msgstr "Grunddaten"
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Specifications"
+#~ msgstr "Datenblatt"
+
+#~ msgid "View lager version"
+#~ msgstr "Grössere Ansicht anzeigen"
+
+#~ msgid "Contact provider directly"
+#~ msgstr "Jetzt Anbieter direkt kontaktieren"
+
+#~ msgid "Provider"
+#~ msgstr "Anbieter"
+
+#~ msgid "I am interested concerning this property. Please contact me."
+#~ msgstr ""
+#~ "Ich interessiere mich für dieses Objekt. Bitte nehmen Sie Kontakt mit mir "
+#~ "auf."
+
+#~ msgid "E-Mail"
+#~ msgstr "E-Mail"
+
+#~ msgid "Fax"
+#~ msgstr "Fax"
+
+#~ msgid "Contact person"
+#~ msgstr "Kontaktperson"
+
+#~ msgid "Phone direct"
+#~ msgstr "Telefon direkt"
+
+#~ msgid "Mobile"
+#~ msgstr "Mobile"
+
+#~ msgid "Share"
+#~ msgstr "Empfehlen"
+
+#~ msgid "per"
+#~ msgstr "pro"
+
+#~ msgid "and"
+#~ msgstr "und"
+
+#~ msgid "Document"
+#~ msgstr "Dokument"

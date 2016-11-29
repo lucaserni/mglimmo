@@ -1,0 +1,175 @@
+<div class="container">
+	<div class="topOuter">
+		<div class="casawp-row">
+			<div class="col-md-9">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="casawp-single-aside-container pagContainer">
+							<?php echo $offer->renderPagination(); ?>
+						</div>	
+					</div>
+				</div>
+			
+				<header class="casawp-single-header">
+					<h1 class="casawp-single-title"><?php echo $offer->getTitle() ?></h1>
+				</header>
+			</div>
+			<div class="col-md-3">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="casawp-row">
+		<div class="col-md-12">
+			<div class="casawp-single-contentarea">
+				<?php #echo $offer->renderGallery(); ?>
+				<?php #echo $offer->renderGalleryThumbnails(); ?>
+				<br>
+				<?php echo $offer->renderTabable(); ?>
+				<?php //echo $offer->contactSellerByMailBox(); ?>
+				<br>
+				<?php //echo $offer->renderIntegratedOffers(); ?>
+			</div>
+			<div class="row">
+				<div class="col-md-9">
+					<?php 
+						function substr_close_tags($code, $limit = 300)
+						{
+						    if ( strlen($code) <= $limit )
+						    {
+						        return $code;
+						    }
+						    $html = substr($code, 0, $limit);
+						    preg_match_all ( "#<([a-zA-Z]+)#", $html, $result );
+						    foreach($result[1] AS $key => $value)
+						    {
+						        if ( strtolower($value) == 'br' )
+						        {
+						            unset($result[1][$key]);
+						        }
+						    }
+						    $openedtags = $result[1];
+						    preg_match_all ( "#</([a-zA-Z]+)>#iU", $html, $result );
+						    $closedtags = $result[1];
+						    foreach($closedtags AS $key => $value)
+						    {
+						        if ( ($k = array_search($value, $openedtags)) === FALSE )
+						        {
+						            continue;
+						        }
+						        else
+						        {
+						            unset($openedtags[$k]);
+						        }
+						    }
+						    if ( empty($openedtags) )
+						    {
+						        if ( strpos($code, ' ', $limit) == $limit )
+						        {
+						            return $html."...";
+						        }
+						        else
+						        {
+						            return substr($code, 0, strpos($code, ' ', $limit))."...";
+						        }
+						    }
+						    $position = 0;
+						    $close_tag = '';
+						    foreach($openedtags AS $key => $value)
+						    {   
+						        $p = strpos($code, ('</'.$value.'>'), $limit);
+
+						        if ( $p === FALSE )
+						        {
+						            $code .= ('</'.$value.'>');
+						        }
+						        else if ( $p > $position )
+						        {
+						            $close_tag = '</'.$value.'>';
+						            $position = $p;
+						        }
+						    }
+						    if ( $position == 0 )
+						    {
+						        return $code;
+						    }
+						    return substr($code, 0, $position).$close_tag;
+						}
+					 ?>
+					<div class="casawp-tabable-pane" id="text_description">
+						 <?php $content = $offer->renderContent(); ?>
+						 <?php $teaser = substr_close_tags($content, 300) ?>
+						 <div class="readmore-wrap">
+						 	<div class="readmore-contents transition-delayer">
+						 		<span class="teaser">
+						 			
+						 			
+						 			<?php echo $teaser; ?>
+						 		</span>
+						 		<span class="complete">
+						 			
+						 			<?php echo $content ?>
+						 		</span>
+						 		
+						 	</div>
+						 	<span class="more">
+						 	    <span class="readmore-label">mehr...</span>
+						 	    <span class="readless-label">weniger...</span>
+
+						 	   
+						 	</span>
+						 </div>
+					</div>
+				</div>
+			</div>
+			
+			<aside class="casawp-single-aside">
+				<div class="casawp-single-aside-container casawp-virtual-tour-btn">
+					<?php 
+						$urls = $offer->getUrls();
+						if ($urls && array_key_exists('virtual-tour', $urls)) {
+							foreach ($urls['virtual-tour'] as $key => $url) {
+								echo '<a class="btn btn-default btn-block" href="'.$url['href'].'" tarrender="_blank" title="'.$url['title'].'">'. ($url['label'] ? $url['label'] : __('Virtual Tour', 'casawp')) .'</a>';
+							}
+						}
+					?>
+				</div>
+			</aside>
+		</div>
+	</div>
+</div>
+
+<div class="singleMap">
+	<?= $offer->renderMap() ?>
+</div>
+<div class="container">
+	<div class="casawp-row">
+		<div class="col-md-8">
+			<div class="casawp-single-aside-container">
+			<h1>Kontakt</h1>
+				<?php echo $offer->renderContactform(); ?>
+			</div>
+					<div class="casawp-single-aside-container">
+						<?php echo $offer->renderSalesPerson(); ?>
+					</div>
+			<!-- 		<div class="casawp-single-aside-container">
+						<?php echo $offer->renderVisitPerson(); ?>
+					</div> -->
+					<div class="casawp-single-aside-container">
+						<?php echo $offer->renderSeller(); ?>
+					</div>
+					<div class="casawp-single-aside-container">
+						<?php echo $offer->renderAllShareWidgets(); ?>
+					</div>
+		</div>
+		<div class="col-md-4">
+			
+			
+		</div>
+	</div>
+</div>
+
+	
+	
+	

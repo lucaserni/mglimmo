@@ -1,0 +1,39 @@
+/*!
+Theme Name: mgl-immo.ch
+Author: Casasoft AG
+Author URI: http://casasoft.ch/
+Description:
+Version: 1.0.0
+Tags: responsive-layout, custom-background, custom-colors, custom-header, custom-menu, microformats, post-formats, casasync, casaxml
+
+Custom WordPress Theme, Copyright (C) 2014 Casasoft AG.
+*/
+
+
+//Bootstrap
+@import "./src/bower_components/bootstrap/less/bootstrap.less";
+@icon-font-path: "font/";
+
+//fontawesome
+@import "./src/bower_components/fontawesome/less/font-awesome.less";
+@fa-font-path: "font";
+
+@import (css) "/src/bower_components/flickity/dist/flickity.min.css";
+
+//fancybox
+@import (css) "/src/bower_components/fancybox/source/jquery.fancybox.css";
+@import "./src/less/jquery.fancybox-overrides.less";
+
+//Contact form 7
+@import "./src/less/cf7-overrides.less";
+
+
+//own
+//@import "less/glyphicon-filetype";
+//@import "less/glyphicon-lg";
+//@import "less/glyphicon-social";
+@import "./src/less/wp_core";
+@import "./src/less/casawp-overrides";
+@import "./src/less/site";
+
+//template .less files get install here automaticaly throught gulp

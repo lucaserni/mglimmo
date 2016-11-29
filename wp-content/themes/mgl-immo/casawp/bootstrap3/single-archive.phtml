@@ -1,0 +1,81 @@
+
+<div class="casawp-property">
+	<div class="casawp-thumbnail-wrapper" style="background-image: url(<?php echo (wp_get_attachment_image_src( get_post_thumbnail_id( $offer->$post->ID ), 'large' )[0] ? wp_get_attachment_image_src( get_post_thumbnail_id( $offer->$post->ID ), 'large' )[0] : get_bloginfo('template_directory' ).'/img/noImg.png');?>)">
+	</div>
+	<div class="casawp-text">
+		<h3><a href="<?= get_permalink($offer->post) ?>"><?php echo $offer->getTitle(); ?></a></h3>
+		<table class="table">
+		  <tbody>
+		    <tr>
+		      <td class="width-25"><strong><?= __('Address','casawp') ?></strong></td>
+		      <td class="width-75"><?= $offer->getFieldValue('property_address_streetaddress') ?> <?= $offer->getFieldValue('property_address_streetnumber') ?><br><?= $offer->getFieldValue('address_postalcode') ?> <?= $offer->getFieldValue('address_locality') ?></td>
+		    </tr>
+	    	<?php if ($offer->getNumval('area_bwf')): ?>
+	    		<tr>
+	    			<td class="width-25"><strong>Bruttowohnfläche</strong></td>
+	    			<td class="width-75"><?= $offer->renderNumvalValue($offer->getNumval('area_bwf')) ?></td>
+	    		</tr>	    		
+	    	<?php endif ?>
+	        <?php if ($offer->getNumval('area_sia_gsf')): ?>
+	        	<tr>
+	        		<td class="width-25"><strong>Grundstücksfläche</strong></td>
+	        		<td class="width-75"><?= $offer->renderNumvalValue($offer->getNumval('area_sia_gsf')) ?></td>
+	        	</tr>
+	        <?php endif ?>
+	        <?php if ($offer->getNumval('area_nwf')): ?>
+	        	<tr>
+	        		<td class="width-25"><strong>Nettowohnfläche</strong></td>
+	        		<td class="width-75"><?= $offer->renderNumvalValue($offer->getNumval('area_nwf')) ?></td>
+	        	</tr>
+	        <?php endif ?>
+		    <?php if ($this->offer->getSalestype() == 'buy') : ?>
+		      <tr>
+		        <td class="width-25"><strong><?= __('Sales price', 'casawp') ?></strong></td>
+		        <td class="width-75">
+		          <?php
+		            if ($this->offer->getFieldValue('price', false)) {
+		              echo $this->offer->renderPrice();
+		            } else {
+		              echo __('On Request', 'casawp');
+		            }
+		          ?>
+		        </td>
+		      </tr>
+		    <?php endif; ?>
+		    <?php if ($this->offer->getSalestype() == 'rent') : ?>
+		      <?php if ($this->offer->getFieldValue('grossPrice', false)): ?>
+		          <tr>
+		            <td class="width-25"><strong><?= __('Gross price','casawp') ?></strong></td>
+		            <td class="width-75">
+		              <?= $this->offer->renderPrice('gross'); ?>
+		            </td>
+		          </tr>
+		      <?php elseif ($this->offer->getFieldValue('netPrice', false)): ?>
+		          <tr>
+		            <td class="width-25"><strong><?= __('Net price','casawp') ?></strong></td>
+		            <td class="width-75">
+		              <?= $this->offer->renderPrice('net'); ?>
+		            </td>
+		          </tr>
+		      <?php else: ?>
+		          <tr>
+		            <td class="width-25"><strong><?= __('Rent price','casawp') ?></strong></td>
+		            <td class="width-75">
+		              <?= __('On Request', 'casawp'); ?>
+		            </td>
+		          </tr>
+		      <?php endif ?>
+		    <?php endif; ?>
+		    <?php if ($offer->getAvailability()): ?>
+		    	<tr>
+		    	  <td class="width-25"><strong>Bezug</strong></td>
+		    	  <td class="width-75">
+		    	    <?= $offer->renderAvailabilityDate() ?>
+		    	  </td>
+		    	</tr>
+		    	
+		    <?php endif ?>
+		  </tbody>
+		</table>
+	</div>
+</div>

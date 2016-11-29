@@ -1,0 +1,153 @@
+<div class="casawp-basic-box">
+  <div>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+          <span>
+            <?php 
+              if ($offer->getSalestype() == 'buy') {
+                echo __('Price', 'casawp');
+              } else {
+                if ($this->offer->getFieldValue('grossPrice', false)) {
+                  echo __('Gross price', 'casawp');
+                } elseif($this->offer->getFieldValue('netPrice', false)) {
+                  echo __('Net price', 'casawp');
+                } else {
+                  echo __('Rent price', 'casawp');
+                }
+              }
+            ?>
+          </span>
+            
+          </td>
+          <td>
+            <?php 
+              if ($offer->getSalestype() == 'buy') {
+                if ($this->offer->getFieldValue('price', false)) {
+                  echo $this->offer->renderPrice();
+                } else {
+                  echo __('On Request','casawp');
+                }
+              } else {
+                if ($this->offer->getFieldValue('grossPrice', false)) {
+                  echo $this->offer->renderPrice('gross');
+                } elseif($this->offer->getFieldValue('netPrice', false)) {
+                  echo $this->offer->renderPrice('net');
+                } else {
+                  echo __('On Request','casawp');
+                }
+              }
+            ?>
+            <?php global $casawp; ?>
+            <?php foreach ($this->offer->getExtraCosts() as $cost): ?>
+              <br><strong><?= __('Extra Costs:', 'casawp') ?></strong>
+              <br><?= $casawp->renderPrice($cost['price'], $cost['currency'], $cost['propertysegment'], $cost['timesegment']); ?>
+              <?php break; ?>
+            <?php endforeach ?>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+      
+      
+  </div>
+</div>
+<div class="casawp-basic-box">
+  <div>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+          <span>
+            <?= __("Address", 'casawp') ?>
+          </span>
+            
+          </td>
+          <td>
+            <?= $offer->renderAddress() ?>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+   
+    
+  </div>
+</div>
+<?php if ($offer->getNumval('number_of_rooms')): ?>
+<div class="casawp-basic-box">
+  <div>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <span>
+             
+               Anzahl Zimmer
+            
+            </span>
+          </td>
+          <td>
+  
+              <span>
+                <?php echo $offer->renderNumvalValue($offer->getNumval('number_of_rooms')) ?>
+              </span>
+          
+          </td>
+        </tr>
+      </tbody>
+    </table>
+   
+  </div>
+</div>
+<?php endif ?>
+<?php if ($offer->getNumval('area_bwf')): ?>
+<div class="casawp-basic-box">
+  <div>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+           
+            <span>
+              Wohnfläche
+            </span>
+          
+          </td>
+          <td>
+              <span>
+                <?= $offer->renderNumvalValue($offer->getNumval('area_bwf')) ?>
+
+          </td>
+        </tr>
+      </tbody>
+    </table>
+   
+  </div>
+</div>
+<?php endif ?>
+<div class="casawp-basic-box">
+  <div>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+           <?php if ($offer->getAvailability()): ?>
+            
+              <span>Bezugstermin </span>
+            
+           <?php endif ?>
+          </td>
+          <td>
+            <?php if ($offer->getAvailability()): ?>
+              
+                <span><?= $offer->renderAvailabilityDate() ?> </span>
+              
+            <?php endif ?>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+   
+  </div>
+</div>

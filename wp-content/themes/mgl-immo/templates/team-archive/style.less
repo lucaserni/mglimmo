@@ -1,0 +1,98 @@
+.page-template-team-archive {
+	.team-member {
+		margin-bottom: 25px;
+		
+		.teamInner{
+			background: rgba(170,170,170,0.9);
+			position: absolute;
+			top: 80%;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			transition: 0.3s all;
+			height: 100%;
+			color: white;
+			text-align: center;
+			padding: 0 10px;
+			@media(max-width: @screen-xs-max){
+				top: 87%;
+			}
+			i{
+				color: white;
+				transition: 0.3s all;
+				font-size: 48px;
+			}
+		}
+		b{
+			display: block;
+			padding: 10px;
+			text-align: center;
+			//background-color: #aaa;
+			color: white;
+			text-decoration: none;
+			transition: 0.3s all;
+			font-weight: 500;
+		}
+		a{
+			&:hover, &:focus, &:active{
+				text-decoration: none;
+				i{
+					color: #ddd;
+				}
+			}
+		}
+		&:hover, &:focus, &:active{
+			//cursor: pointer;
+			a{
+				i{
+					opacity: 1;
+				}
+				//background-color: #aaa;
+			}
+			.teamInner{
+				//background: rgba(170,170,170,0.5);
+				top: 0;
+				i{
+					opacity: 1;
+				}
+			}
+		}
+	}
+	.team-image-wrap{
+		max-width: 100%;
+		position: relative;
+		overflow: hidden;
+	}
+	.team-responsive-sized-image {
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		&.portrait {
+			height: 200px;
+			@media(max-width: @screen-xs-max){
+				height: 300px;
+			}
+		}
+		.fill-responsive-size {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	}
+}
+
+.teamOuter{
+	margin-top: 60px;
+}
+
+// Your Global Code here
+
+
+//Import Plugins like this:
+//@import (css) "/src/bower_components/flickity/dist/flickity.min.css";

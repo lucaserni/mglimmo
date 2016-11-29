@@ -1,0 +1,211 @@
+[
+    {
+        "key": "group_55bf33c7e7d28",
+        "title": "Map",
+        "fields": [
+            {
+                "key": "field_55bf33d1cbd81",
+                "label": "Markers",
+                "name": "markers",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "layout": "block",
+                "button_label": "Marker hinzuf\u00fcgen",
+                "sub_fields": [
+                    {
+                        "key": "field_55bf3473cbd84",
+                        "label": "Titel",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_55c06a17c9e6d",
+                        "label": "Beschreibung",
+                        "name": "description",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1
+                    },
+                    {
+                        "key": "field_55c085e7273d1",
+                        "label": "Symbol",
+                        "name": "icon",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "circle": "Gef\u00fcllter Kreis",
+                            "circle-stroked": "Leerer Kreis",
+                            "star": "Stern",
+                            "marker": "Gef\u00fcllter Marker",
+                            "marker-stroked": "Leerer Marker",
+                            "religious-christian": "Kirche",
+                            "cemetery": "Friedhof",
+                            "airport": "Flughafen",
+                            "rail": "Bahnhof",
+                            "rail-metro": "Tram Station",
+                            "fuel": "Tankstelle",
+                            "parking": "Parkplatz",
+                            "parking-garage": "Parkhaus",
+                            "ferry": "Hafen",
+                            "bicycle": "Fahrrad",
+                            "museum": "Museum",
+                            "monument": "Monument",
+                            "zoo": "Zoo",
+                            "campsite": "Camping",
+                            "theatre": "Theater",
+                            "soccer": "Fussball",
+                            "tennis": "Tennis",
+                            "basketball": "basketball",
+                            "golf": "Golf",
+                            "swimming": "Schwimmen",
+                            "school": "Schule",
+                            "college": "Hochschule",
+                            "library": "Bibliothek",
+                            "post": "Post",
+                            "town-hall": "Rathaus",
+                            "police": "Polizei",
+                            "restaurant": "Restaurant",
+                            "cafe": "Caf\u00e9",
+                            "fast-food": "Fast food",
+                            "bar": "Bar",
+                            "bank": "Bank",
+                            "cinema": "Kino",
+                            "hospital": "Spital",
+                            "industrial": "Industrie"
+                        },
+                        "default_value": [],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 1,
+                        "ajax": 1,
+                        "placeholder": "",
+                        "disabled": 0,
+                        "readonly": 0
+                    },
+                    {
+                        "key": "field_55c1cc1256b77",
+                        "label": "Farbcode",
+                        "name": "color",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "63b6e5",
+                        "placeholder": "",
+                        "prepend": "#",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_55bf340ecbd83",
+                        "label": "Marker Gr\u00f6sse",
+                        "name": "marker-size",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "small": "Klein",
+                            "medium": "Mittel",
+                            "large": "Gross"
+                        },
+                        "default_value": [],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": "",
+                        "disabled": 0,
+                        "readonly": 0
+                    },
+                    {
+                        "key": "field_55c05a25ad934",
+                        "label": "Marker Position",
+                        "name": "lat-lng",
+                        "type": "google_map",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "center_lat": "47.335231",
+                        "center_lng": "8.530266",
+                        "zoom": 10,
+                        "height": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/map-bg.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": ""
+    }
+]
