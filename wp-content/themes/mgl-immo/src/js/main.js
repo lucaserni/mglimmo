@@ -75,7 +75,7 @@
 	                map: map,
 	                position: location,
 	                icon: new google.maps.MarkerImage(
-	                		'/wp-content/themes/moessinger/img/locationX2.png',
+	                		'/wp-content/themes/mgl-immo/img/locationX2.png',
 	                		new google.maps.Size(60,96),
 	                		null,
 	                		null,
@@ -171,10 +171,10 @@
 	    	var marker = new google.maps.Marker({
 	    		position: markerpos,
 	    		map: map,
-	    		title: "Mössinger Immobilien",
+	    		title: "MGL Immobilien",
 	    		url: "https://www.google.ch/maps/place/Max+M%C3%B6ssinger/@46.9338931,7.423091,15z/data=!4m2!3m1!1s0x0:0xe143b9f44020ef65?sa=X&ved=0ahUKEwjn0NOJ8cXOAhVG8RQKHZNiBLsQ_BIIajAK",
 	    		icon: new google.maps.MarkerImage(
-	    				'/wp-content/themes/moessinger/img/moe.png',
+	    				'/wp-content/themes/mlg-immo/img/moe.png',
 	    				new google.maps.Size(40,52),
 	    				null,
 	    				null,

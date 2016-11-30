@@ -32,7 +32,7 @@
 						            	<span itemprop="telephone">
 						            		031 972 21 28 <br>
 						            	</span>
-						            	<a href="mailto:info@moessinger.ch">info@moessinger.ch</a>
+						            	<a href="mailto:info@moessinger.ch">info@mgl-immo.ch</a>
 						            </div>
 						    	</div>
 								
@@ -54,11 +54,7 @@
 								<a href="http://www.hev-bern.ch/" target="_blank"><img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hev.png" alt=""></a>
 								<a href="http://www.svit.ch/" target="_blank"><img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/svit.png" alt=""></a>
 								<a href="http://www.bern-cci.ch/" target="_blank"><img class="img-responsive hik" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hik.png" alt=""></a>
-								<a href="http://www.siv.ch/" target="_blank"><img class="img-responsive hik" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/siv.png" alt=""></a>
-								
-								
-								
-								
+								<a href="http://www.siv.ch/" target="_blank"><img class="img-responsive hik" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/siv.png" alt=""></a>	
 								
 							</div>
 							

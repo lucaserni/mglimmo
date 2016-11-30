@@ -66,7 +66,7 @@ __( 'Property list', 'casawp' );
 						      animation: google.maps.Animation.DROP,
 						      url: '<?= $item['link'] ?>',
 						      icon: new google.maps.MarkerImage(
-						      		'/wp-content/themes/moessinger/img/locationX2.png',
+						      		'/wp-content/themes/mgl-immo/img/locationX2.png',
 						      		new google.maps.Size(60,96),
 						      		null,
 						      		null,
